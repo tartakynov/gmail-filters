@@ -1,5 +1,7 @@
 This repository is a template for organizing Gmail filters as human-editable code in version control. This unlocks iterative development of Gmail filters, and lets me avoid interacting with its UI. 
 
+This repository does not contain filters that I use in real life.
+
 ## Prerequisites
 
 ### Install [pipx](https://pypa.github.io/pipx/)
@@ -15,7 +17,7 @@ pipx install gmail-yaml-filters
 ```
 
 ## Edit the filters
-You can edit the filters in `filters/` folder.
+You can edit the filters in `filters/` folder. See [gmail-yaml-filters](https://github.com/mesozoic/gmail-yaml-filters) for supported syntax.
 
 ## Re-generate filters XML from YML
 ```
