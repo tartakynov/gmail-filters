@@ -1,0 +1,11 @@
+# Nested conditions
+- from: lever.co
+  label: hiring
+  more:
+    -
+      has: 'completed feedback'
+      archive: true
+    -
+      has: 'what is your feedback'
+      star: true
+      important: true

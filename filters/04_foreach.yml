@@ -1,0 +1,25 @@
+# Foreach loops
+- for_each:
+    - list1
+    - list2
+    - list3
+  rule:
+    to: "{item}@mycompany.com"
+    label: "{item}"
+
+# Foreach loops with complex structures
+- for_each:
+    - [mailing-list-1a, list1]
+    - [mailing-list-1b, list1]
+    - [mailing-list-1c, list1]
+    - [mailing-list-2a, list2]
+    - [mailing-list-2b, list2]
+  rule:
+    to: "{item[0]}@mycompany.com"
+    label: "{item[1]}"
+- for_each:
+    - {list: list1, domain: example.com}
+    - {list: list2, domain: whatever.com}
+  rule:
+    to: "{list}@{domain}"
+    label: "{list}"

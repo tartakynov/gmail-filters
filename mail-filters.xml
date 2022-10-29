@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='utf8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:apps="http://schemas.google.com/apps/2006">
+  <title>Mail Filters</title>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:2853161030253469481</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="from" value="(alice OR bob OR carol)"/>
+    <apps:property name="label" value="conspiracy"/>
+    <apps:property name="to" value="(-MyBoss AND me)"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:4988301508628369521</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="from" value="googlealerts-noreply@google.com"/>
+    <apps:property name="label" value="news"/>
+    <apps:property name="shouldNeverMarkAsImportant" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:3298032221860123985</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="from" value="lever.co"/>
+    <apps:property name="hasTheWord" value="&quot;completed feedback&quot;"/>
+    <apps:property name="label" value="hiring"/>
+    <apps:property name="shouldArchive" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:7105345765318244215</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="from" value="lever.co"/>
+    <apps:property name="hasTheWord" value="&quot;what is your feedback&quot;"/>
+    <apps:property name="label" value="hiring"/>
+    <apps:property name="shouldAlwaysMarkAsImportant" value="true"/>
+    <apps:property name="shouldStar" value="true"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:5852747138222793179</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="from" value="lever.co"/>
+    <apps:property name="label" value="hiring"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:8413194259581295157</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list1"/>
+    <apps:property name="to" value="list1@example.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:2278334562257822980</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list1"/>
+    <apps:property name="to" value="list1@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:5205702264243803325</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list1"/>
+    <apps:property name="to" value="mailing-list-1a@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:1281288247470220574</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list1"/>
+    <apps:property name="to" value="mailing-list-1b@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:2249142438031906820</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list1"/>
+    <apps:property name="to" value="mailing-list-1c@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:8074922563646170626</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list2"/>
+    <apps:property name="to" value="list2@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:4680590814205605617</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list2"/>
+    <apps:property name="to" value="list2@whatever.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:2498532194666820085</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list2"/>
+    <apps:property name="to" value="mailing-list-2a@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:2306748448735787836</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list2"/>
+    <apps:property name="to" value="mailing-list-2b@mycompany.com"/>
+  </entry>
+  <entry>
+    <category term="filter"/>
+    <title>Mail Filter</title>
+    <id>tag:mail.google.com,2008:filter:6726924223333264151</id>
+    <updated>2022-10-29T11:54:21Z</updated>
+    <content/>
+    <apps:property name="label" value="list3"/>
+    <apps:property name="to" value="list3@mycompany.com"/>
+  </entry>
+</feed>
+

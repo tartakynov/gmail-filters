@@ -1,0 +1,9 @@
+# Boolean conditions
+- from:
+    any:
+      - alice
+      - bob
+      - carol
+  to:
+    all: [me, -MyBoss]
+  label: conspiracy

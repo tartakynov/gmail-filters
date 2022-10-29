@@ -1,0 +1,4 @@
+# Simple example
+- from: googlealerts-noreply@google.com
+  label: news
+  not_important: true
