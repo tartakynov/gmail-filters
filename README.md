@@ -1,4 +1,4 @@
-This repository is a template for organizing Gmail filters as human-editable code in version control. This unlocks iterative development of Gmail filters, and lets me avoid interacting with its UI. 
+This repository is a template for organizing Gmail filters as human-editable code in version control. This unlocks iterative development of Gmail filters, and lets me avoid interacting with its UI.
 
 This repository does not contain filters that I use in real life.
 
@@ -29,6 +29,13 @@ And then you can upload `mail-filters.xml` to Gmail.
 This will also create `mail-filters.yml.lock` file, which is a simple merge of all the `filters/*.yml` files.
 You should not edit this file manually.
 
+### See the list of labels
+Run the following list to see the list of expected labels
+```
+./labels.py
+```
+
 ## Links
 - http://tom-henderson.github.io/2022/01/11/wrangling-gmail-filters.html
 - https://therub.org/2018/11/19/advanced-gmail-filtering-for-linux-kernel-lists/
+- https://support.google.com/mail/answer/7190?hl=en
